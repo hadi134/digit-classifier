@@ -1,8 +1,10 @@
 # Handwritten Digit Classifier
 
+> **Learning material — not a completed personal portfolio project.** This repository started as AI-generated code. I have not yet independently worked through and understood the full implementation. Its code, tests and recorded metrics are not evidence of skills I can already demonstrate. I will document my own changes and explanations as I learn.
+
 A compact computer-vision baseline that classifies handwritten digits from `0` to `9` using the scikit-learn digits dataset.
 
-The goal is to show a clear, reproducible ML workflow: load image data, split it correctly, build a pipeline, evaluate the model, save artifacts, and test the result.
+This scaffold contains an example ML workflow: load image data, split it correctly, build a pipeline, evaluate the model, save artifacts, and test the result.
 
 ## What it includes
 
@@ -15,7 +17,7 @@ The goal is to show a clear, reproducible ML workflow: load image data, split it
 
 ## Baseline result
 
-The saved run reached **98.0% accuracy** and **98.0% macro F1** on 450 held-out images.
+The existing generated report records **98.0% accuracy** and **98.0% macro F1** on 450 held-out images. I have not independently reproduced or explained this result yet. This uses classical machine learning, not a CNN or deep-learning model.
 
 ![Confusion matrix](reports/confusion_matrix.png)
 
@@ -37,7 +39,7 @@ The training command creates:
 
 ## Why this model?
 
-The dataset is small, so an SVC provides a strong and easy-to-understand classical baseline. A useful next step would be to compare it with a small neural network or CNN on a larger image dataset.
+The dataset is small, so an SVC provides a classical baseline. A useful next step would be to compare it with a small neural network or CNN on a larger image dataset.
 
 ## Next steps
 
